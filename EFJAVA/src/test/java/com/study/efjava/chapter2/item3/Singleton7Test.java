@@ -1,4 +1,4 @@
-package com.study.efjava.chapter2.item4;
+package com.study.efjava.chapter2.item3;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -5,7 +5,7 @@ public class Singleton6 {
 
 	private Singleton6() {}
 	// Double-Checked Locking
-	private static Singleton6 getInstance() {
+	public static Singleton6 getInstance() {
 		// 최초 초기화만 동기화 리소스 낭비 줄인다
 		if (INSTANCE == null) {
 			synchronized (Singleton6.class) {
